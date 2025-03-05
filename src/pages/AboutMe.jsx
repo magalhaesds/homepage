@@ -1,6 +1,6 @@
 import React from "react";
 import pfp from '/src/assets/pfp.jpg'
-import {FaReact, FaHtml5, FaJs, FaCss3Alt, FaPython, FaGithub, FaGitAlt, FaNpm} from 'react-icons/fa'
+import {FaReact, FaHtml5, FaJs, FaCss3Alt, FaPython, FaGithub, FaGitAlt, FaNpm, } from 'react-icons/fa'
 import { SiDotnet } from "react-icons/si"
 import { TbBrandMysql } from "react-icons/tb";
 import tailwindlogo from '/src/assets/tailwindlogo.svg'
@@ -13,7 +13,7 @@ function AboutMe() {
 
                 <div className="bg-sky-200 h-auto w-screen p-5 rounded-lg shadow-lg">
 
-                    <div className='h-64 w-64 bg-white mb-5 rounded shadow mx-auto xl:relative'>
+                    <div className='h-64 w-64 bg-white mb-5 rounded shadow mx-auto '>
                         
                         <img src={pfp} className='rounded'/>
 
