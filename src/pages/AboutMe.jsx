@@ -8,27 +8,20 @@ import csharp from '/src/assets/csharp.svg'
 
 function AboutMe() {
     return (
-
         <>
-            <div className="min-h-screen flex justify-center p-5 flex flex-wrap">
+            <div className='flex justify-center p-5 flex-wrap'>
 
-                <div className="bg-sky-200 h-auto max-w-4xl w-11/12 p-5 flex flex-col rounded-lg shadow-lg">
+                <div className="bg-sky-200 h-auto w-screen p-5 rounded-lg shadow-lg">
 
-                    <div className='h-72 w-64 bg-white mx-auto mb-5 flex flex-wrap rounded shadow xl:relative xl:top-10 xl:left-60 relative'>
+                    <div className='h-64 w-64 bg-white mb-5 rounded shadow mx-auto xl:relative'>
                         
-                        <img src={pfp} className='rounded' />
-
-                        <div className='h-12 w-full bg-white rounded-b absolute bottom-0 flex flex-col items-center justify-center'>
-
-                            <h1>Front-end Developer</h1>
-
-                        </div>
+                        <img src={pfp} className='rounded'/>
 
                     </div>
     
-                    <h1 className="text-xl text-center font-bold mb-4 xl:fixed">Quem Sou eu...</h1>
+                    <h1 className="text-xl font-bold">Quem Sou eu...</h1>
 
-                    <p className="text-justify w-full md:w-8/12 mx-auto leading-relaxed xl:fixed xl:w-115 xl:top-63">
+                    <p className="text-justify w-full md:w-8/12 mx-auto">
 
                         Olá! Meu nome é Gustavo de Magalhães, sou acadêmico de Ciência da Computação na UFMT e atualmente estagiário em Front-End na MTI. Tenho paixão por tecnologia e design, com um interesse especial em UI/UX, criando interfaces que unem estética e usabilidade.
                         <br />

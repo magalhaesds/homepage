@@ -12,9 +12,9 @@ function App() {
 
   return (
 	<>
-		<header>
+		<header className='overflow-hidden'>
 
-			<div className='h-32 w-screen relative'>
+			<div className='h-32 w-full relative'>
 
 				<img src={headerBG} alt="header background" className='h-full w-full object-cover'/>
 
@@ -58,7 +58,7 @@ function App() {
 
 			<hr className='border-gray-500' />
 
-			<main className='h-screen xl:w-4xl w-full mx-auto fixed top-44 left-0 right-0'>
+			<main className='h-full xl:w-6/12 mx-auto top-44 left-0 right-0'>
         		{activePage === "about" && <AboutMe />}
         		{activePage === "projects" && <Projects />}
         		{activePage === "contact" && <Contact />}
